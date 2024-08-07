@@ -139,7 +139,7 @@ main {
     background-color: rgb(245, 245, 245);
 }
 .hero {
-    background-image: url("/assets/img/hero-img.png");
+    background-image: url("hero-img.png");
     background-position: top left -50px;
     height: 690px;
     justify-content: end;
@@ -165,7 +165,7 @@ main {
 /* Hero 2 */
 
 .hero-two {
-    background-image: url("/assets/img/hero-img-two.png");
+    background-image: url("hero-img-two.png");
     background-repeat: no-repeat;
     height: 787px;
     justify-content: space-between;
