@@ -208,7 +208,7 @@ main {
 }
 .hero-three .hero__content--fix .hero__content--desc:hover {
     transform: translateY(-10px);
-    font-size: 30px;
+    font-size: 34px;
     color: #b84dfa9b;
 }
 .hero-three .hero__content--fix {
