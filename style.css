@@ -147,13 +147,16 @@ main {
     align-items: center;
 }
 .hero .hero__content--with {
-    width: 34%;
+    width: 32%;
 }
 .hero__content--heading {
     font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 37px;
+}
+.hero .btn {
+    line-height: 2;
 }
 .hero__content--desc {
     font-size: 5rem;
@@ -175,6 +178,9 @@ main {
 .hero-two .hero__content {
     padding-left: 150px;
 }
+.hero-two .hero__content--with {
+    width: 47%;
+}
 .hero-two .btn {
     background-color: transparent;
     color: rgb(205, 138, 200);
@@ -183,13 +189,19 @@ main {
 .hero__content-top {
     display: flex;
     justify-content: space-between;
+    padding: 12px 0;
+    height: 70px;
+}
+/* ==================== HERO 3 ================== */
+.hero-three {
+    padding-bottom: 50px;
 }
 .hero-three .hero__content--fix .hero__content--desc {
     font-size: 2.4rem;
     font-weight: 700;
     letter-spacing: 0.12rem;
     text-transform: uppercase;
-    padding: 0 21px;
+    padding: 12px 21px;
     color: rgba(53, 53, 53, 0.778);
     transition: 0.3s;
     cursor: pointer;
@@ -230,12 +242,30 @@ main {
     flex-direction: column;
     border-radius: 22px;
     overflow: hidden;
+    cursor: pointer;
 }
 .display-list {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
+}
+.display-list .diplay-item {
+    position: relative;
+}
+.display-list .diplay-item .cx {
+    display: inline-block;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
+}
+.display-list .diplay-item .tim {
+    right: 20px;
+    top: 70px;
+}
+.display-list .diplay-item .mat {
+    right: 20px;
+    top: 120px;
 }
 .display-list .diplay-item img {
     width: 207px;
@@ -267,6 +297,42 @@ main {
     width: 190px !important;
     line-height: 42px !important;
     height: 42px !important;
+}
+/* ==================== HERO 4 ================== */
+.container-bggoku {
+    background-image: url("/bggokki.png");
+    height: 637px;
+    background-position: top left -300px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-repeat: no-repeat;
+}
+
+.hero-fore {
+    background-color: rgb(211, 96, 246);
+}
+.container-bggoku .hero__content--with {
+    width: 56%;
+    padding: 178px 0px 178px 84px;
+}
+.container-bggoku section {
+}
+.container-bggoku .hero__content--desc {
+    color: #fff;
+
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.container-bggoku .hero__content--heading {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.container-bggoku .btn {
+    background-color: #60009b;
 }
 /* body {
     height: 100vh;
