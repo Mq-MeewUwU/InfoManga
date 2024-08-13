@@ -289,6 +289,7 @@ main {
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
+    height: 50px;
 }
 .display-list .diplay-item .btn {
     background-color: rgb(37, 36, 36);
@@ -300,7 +301,7 @@ main {
 }
 /* ==================== HERO 4 ================== */
 .container-bggoku {
-    background-image: url("/bggokki.png");
+    background-image: url("./bggokki.png");
     height: 637px;
     background-position: top left -300px;
     display: flex;
@@ -333,6 +334,8 @@ main {
 }
 .container-bggoku .btn {
     background-color: #60009b;
+    line-height: 42px !important;
+    height: 42px !important;
 }
 /* body {
     height: 100vh;
